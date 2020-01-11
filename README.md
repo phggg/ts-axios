@@ -1,6 +1,6 @@
 # ts-axios
 
-使用 TypeScript 从零实现一个 axios
+使用 TypeScript 实现自用一个 axios
 
 ## Features
 
