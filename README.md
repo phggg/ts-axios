@@ -19,7 +19,7 @@ const axios = require('axios')
 
 axios({
   method: 'post',
-  url: '/user/uri',
+  url: '/user/testUrl',
   data: {
     firstName: 'hao',
     lastName: 'Pang'
