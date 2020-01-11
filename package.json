@@ -1,6 +1,6 @@
 {
   "name": "ts-axios-bd",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "",
   "keywords": [],
   "main": "dist/axios.umd.js",
