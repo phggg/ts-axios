@@ -12,7 +12,7 @@
   "author": "phggg <807760472@qq.com>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:phggg/ts-axios.git"
+    "url": "https://github.com/phggg/ts-axios.git"
   },
   "license": "MIT",
   "engines": {
