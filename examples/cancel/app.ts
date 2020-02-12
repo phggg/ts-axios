@@ -4,6 +4,9 @@ const CancelToken = axios.CancelToken
 const source = CancelToken.source()
 
 axios.get('/cancel/get', {
+  params:{
+    a:122432
+  },
   cancelToken: source.token
 }).catch(function(e) {
   if (axios.isCancel(e)) {
@@ -12,7 +15,7 @@ axios.get('/cancel/get', {
 })
 
 setTimeout(() => {
-  source.cancel('Operation canceled by the user.')
+  // source.cancel('Operation canceled by the user.')
 
   axios.post('/cancel/post', { a: 1 }, { cancelToken: source.token }).catch(function(e) {
     if (axios.isCancel(e)) {
